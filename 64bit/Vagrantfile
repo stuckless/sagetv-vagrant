@@ -25,7 +25,8 @@ Vagrant.configure(2) do |config|
 		  && apt-get install -y unzip \
 		    build-essential \
 		    git \
-		    libx11-dev libxt-dev libraw1394-dev libavc1394-dev libiec61883-dev libfreetype6-dev yasm autoconf libtool
+		    libx11-dev libxt-dev libraw1394-dev libavc1394-dev libiec61883-dev libfreetype6-dev yasm autoconf libtool \
+		    libaudio-dev libpulse-dev libasound-dev
 
 		echo '#!/bin/sh' > /etc/profile.d/88_sagedev.sh
 		echo 'export JDK_HOME=/usr/lib/jvm/java-8-oracle' >> /etc/profile.d/88_sagedev.sh

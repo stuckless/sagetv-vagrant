@@ -65,7 +65,8 @@ Vagrant.configure(2) do |config|
 		  && apt-get install -y unzip \
 		    build-essential \
 		    git \
-		    libx11-dev libxt-dev libraw1394-dev libavc1394-dev libiec61883-dev libfreetype6-dev yasm autoconf libtool openjdk-7-jdk libfaac0
+		    libx11-dev libxt-dev libraw1394-dev libavc1394-dev libiec61883-dev libfreetype6-dev yasm autoconf libtool openjdk-7-jdk libfaac0 \
+		    libaudio-dev libpulse-dev libasound-dev
 
 		echo '#!/bin/sh' > /etc/profile.d/88_sagedev.sh
 		export JAVA_ARCH=i386
