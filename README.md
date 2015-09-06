@@ -11,7 +11,9 @@ vagrant up
 vagrant ssh
 ```
 
-Nou you have 32bit environment that is capable of building SageTV Linux.  You can now clone a git repo and then build the sagetv binaries.
+Now you have 32bit environment that is capable of building SageTV Linux.  You can now clone a git repo and then build the sagetv binaries.
+
+32bit-gui and 64bit-gui are Vagrant images that will fully provision a Linux gui, download build and install sagetv and add in a simple demo media file.  These images can be used to test GUI related parts of SageTV such as the MiniClient.
 
 For information on setting up and using Vagrant see the Vagrant site: https://www.vagrantup.com/
 
